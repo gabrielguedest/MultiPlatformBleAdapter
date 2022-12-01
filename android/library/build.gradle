@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
-group='com.github.MY01Inc'
+group='com.github.gabrielguedest'
 
 buildscript {
     repositories {
@@ -45,7 +45,7 @@ android {
 publishing {
         publications {
             release(MavenPublication) {
-                groupId 'com.github.MY01Inc'
+                groupId 'com.github.gabrielguedest'
                 artifactId 'MultiPlatformBleAdapter'
                 version '1.0.0'
                 afterEvaluate{
